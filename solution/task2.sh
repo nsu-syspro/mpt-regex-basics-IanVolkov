@@ -1,1 +1,1 @@
-grep -P -i -o '\Wвина\W' data/pushkin.txt | wc -w
+grep -P -i -o '[^а-яА-Я]вина[^а-яА-Я]' data/pushkin.txt | wc -l
