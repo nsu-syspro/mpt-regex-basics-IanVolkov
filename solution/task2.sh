@@ -1,1 +1,1 @@
-grep -P -o ' вина ' data/pushkin.txt | wc -l
+grep -P -i -o '\Wвина\W' data/pushkin.txt | wc -w
