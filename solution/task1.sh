@@ -1,1 +1,1 @@
-grep -P -i -o '([^а-яА-Я]|^)дверь([^а-яА-Я]|&)' data/pushkin.txt | wc -l
+grep -wio 'дверь' data/pushkin.txt | wc -l
